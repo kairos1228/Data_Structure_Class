@@ -14,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
@@ -26,16 +30,12 @@
               "Title": "Project4.cpp",
               "DocumentMoniker": "C:\\Users\\c\\Desktop\\Data_Structure_class\\Seungchan\\C_Project\\Project4\\Project4.cpp",
               "RelativeDocumentMoniker": "Project4\\Project4.cpp",
-              "ToolTip": "C:\\Users\\c\\Desktop\\Data_Structure_class\\Seungchan\\C_Project\\Project4\\Project4.cpp*",
-              "RelativeToolTip": "Project4\\Project4.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\c\\Desktop\\Data_Structure_class\\Seungchan\\C_Project\\Project4\\Project4.cpp",
+              "RelativeToolTip": "Project4\\Project4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-24T13:33:07.686Z",
+              "WhenOpened": "2025-03-24T13:34:20.563Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
