@@ -8,6 +8,7 @@
 # ───── Visual Studio 관련 무시 ─────
 .vs/
 *.vcxproj.user
+*.vcxproj.filters : VS 솔루션 탐색기 내 폴더 구조 정보	
 *.VC.db
 *.opendb
 *.sdf

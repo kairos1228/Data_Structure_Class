@@ -2,7 +2,7 @@
 int insertElement(int L[], int n, int x) { //  L: 리스트, n: 리스트의 크기, x: 삽입할 원소
 	int i, k = 0, move = 0; // move: 이동횟수 카운터
 	// 원소의 크기를 비교하여 삽입 위치(k) 찾기
-	for ( i = 0; i < n; i++) {
+	for (i = 0; i < n; i++) {
 		if (L[i] <= x && x <= L[i + 1]) {
 			k = i + 1;
 			break;
