@@ -1,3 +1,4 @@
 [submodule "Junbeom"]
 	path = Junbeom
-	url = https://github.com/jk09109/DataStructure/
+	url = https://github.com/jk09109/DataStructure
+	branch = main
