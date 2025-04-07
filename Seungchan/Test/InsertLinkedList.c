@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <string.h>
 #include "InsertLinkedList.h"
+
 // 공백 연결 리스트를 생성하는 연산
 linkedList_h* createLinkedList_h(void) {
 	linkedList_h* L;
@@ -51,7 +52,7 @@ void insertMiddleNode(linkedList_h* L, listNode* pre, char* x) {
 		newNode->link = NULL;		   // 새 노드를 첫 번째이자 마지막 노드로 연결
 		L->head = newNode;
 	}
-	else if (pre == NULL) {			// 삽입 위치를 지정하는 포인터 pre가 NULL인 경우(삽입위치 미지정시)
+	else if (pre == NULL) {			// 삽입 위치를 지정하는 포인터 pre가 NULL인 경우
 		newNode->link = L->head;
 		L->head = newNode;			// 새 노드를 첫 번째 노드로 삽입
 	}
